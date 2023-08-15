@@ -29,6 +29,7 @@ class _Registry:
         "http": "upath.implementations.http.HTTPPath",
         "https": "upath.implementations.http.HTTPPath",
         "memory": "upath.implementations.memory.MemoryPath",
+        "ssh": "upath.implementations.sshfs.SSHPath",
         "s3": "upath.implementations.cloud.S3Path",
         "s3a": "upath.implementations.cloud.S3Path",
         "webdav+http": "upath.implementations.webdav.WebdavPath",
